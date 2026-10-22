@@ -1,0 +1,44 @@
+{
+  "name": "church-software-database",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Grace Chapel admin console - members, contributions, pledges and CSV reporting (frontend demo)",
+  "type": "module",
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vite-node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.9.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-csv": "^2.2.2",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.90.0",
+    "react-is": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "vite": "^8.3.4",
+    "vite-node": "^6.0.0"
+  }
+}
